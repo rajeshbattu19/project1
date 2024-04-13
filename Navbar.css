@@ -1,0 +1,26 @@
+  nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #074929;
+  }
+
+  button{
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    background-color: #074929;
+    color: white;
+    border-radius: 5px;
+  }
+
+  nav ul:hover{
+    cursor: pointer;
+  }
+  
+  nav ul  :active{
+    color: black;
+    transform: scale(0.3);
+  }
